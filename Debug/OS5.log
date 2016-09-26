@@ -1,0 +1,144 @@
+﻿Построение начато 22.07.2013 8:47:10.
+     1>Проект "C:\Users\LibertyPaul\Documents\Visual Studio 2010\Projects\OS5\OS5\OS5.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\OS5.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oi /Ot /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\main.cpp(311): warning C4102: exit: неиспользованная метка
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: ObjectStorage<ObjType>::ObjectStorage(const LocationInfo &,const std::vector<_Ty> &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo,
+                     _Ty=bool
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(17): см. объявление "ObjectStorage<ObjType>::ObjectStorage"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: ObjectStorage<ObjType>::ObjectStorage(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(16): см. объявление "ObjectStorage<ObjType>::ObjectStorage"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: uint ObjectStorage<ObjType>::getFreePlace(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(18): см. объявление "ObjectStorage<ObjType>::getFreePlace"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: uint ObjectStorage<ObjType>::count(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(19): см. объявление "ObjectStorage<ObjType>::count"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: std::vector<_Ty> ObjectStorage<ObjType>::getObjectIds(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     _Ty=uint,
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(20): см. объявление "ObjectStorage<ObjType>::getObjectIds"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: uint ObjectStorage<ObjType>::addObject(ObjType): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(21): см. объявление "ObjectStorage<ObjType>::addObject"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: void ObjectStorage<ObjType>::updateObject(uint,ObjType &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(22): см. объявление "ObjectStorage<ObjType>::updateObject"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: FileInfo ObjectStorage<ObjType>::readObject(uint): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(23): см. объявление "ObjectStorage<ObjType>::readObject"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: std::vector<_Ty> ObjectStorage<ObjType>::readObjects(const std::vector<uint> &): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     _Ty=FileInfo,
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(24): см. объявление "ObjectStorage<ObjType>::readObjects"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: void ObjectStorage<ObjType>::deleteObject(uint): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(25): см. объявление "ObjectStorage<ObjType>::deleteObject"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+     1>c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(32): warning C4661: LocationInfo ObjectStorage<ObjType>::makeBackup(void): отсутствует подходящее определение для запроса на явное создание экземпляра шаблона
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+                 c:\users\libertypaul\documents\visual studio 2010\projects\os5\os5\objectstorage.h(26): см. объявление "ObjectStorage<ObjType>::makeBackup"
+                 with
+                 [
+                     ObjType=FileInfo
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LibertyPaul\Documents\Visual Studio 2010\Projects\OS5\Debug\OS5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LibertyPaul\Documents\Visual Studio 2010\Projects\OS5\Debug\OS5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LibertyPaul\Documents\Visual Studio 2010\Projects\OS5\Debug\OS5.lib" /MACHINE:X86 Debug\BlockCache.obj
+         Debug\BlockTask.obj
+         Debug\Cache.obj
+         Debug\FifteenFields.obj
+         Debug\ObjectStorage.obj
+         Debug\FS.obj
+         Debug\HDD.obj
+         Debug\LocationInfo.obj
+         Debug\main.obj
+         Debug\OpenedFile.obj
+         Debug\TransactionCache.obj
+         Debug\Transaction_base.obj
+         Debug\Transaction_info.obj
+         OS5.vcxproj -> C:\Users\LibertyPaul\Documents\Visual Studio 2010\Projects\OS5\Debug\OS5.exe
+       FinalizeBuildStatus:
+         Файл "Debug\OS5.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\OS5.lastbuildstate".
+     1>Построение проекта "C:\Users\LibertyPaul\Documents\Visual Studio 2010\Projects\OS5\OS5\OS5.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.27
